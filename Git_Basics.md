@@ -278,7 +278,43 @@ git rebase main
 ### ⚠️ Golden Rule
 > Never rebase a branch that others are using.
 
----
+### How to Rebase when Local Branch is Behind
+
+Someone pushed changes before you, so your local branch is behind the remote branch.
+If you want your commit to appear after their changes, you should rebase your commit on top of the latest remote branch.
+
+#### 
+```bash
+# 1️⃣ Fetch the latest changes
+git fetch origin
+
+# 2️⃣ Rebase your commit on top of the latest branch
+# (assuming branch name is A)
+
+git rebase origin/A
+
+
+# This will:
+# - First apply their commits
+# - Then apply your commit on top
+
+# So history becomes:`
+# their commit
+# their commit
+# your commit
+
+
+# 3️⃣ If there are conflicts
+# Git will stop and ask you to fix them.
+
+# After fixing:
+git add .
+git rebase --continue
+
+# 4️⃣ Push your changes
+git push origin A
+```
+
 
 ## 3️⃣ Git Cherry-Pick
 
