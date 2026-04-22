@@ -57,6 +57,11 @@ This repository serves as a **personal reference hub** and a **quick revision gu
 - [motor-vs-pymongo.md](./Python/motor-vs-pymongo.md)
 - [pytest_basic.md](./Python/pytest_basic.md)  
 
+### 🗺️ MindMaps
+- [AI Engineer Complete MindMap](https://whimsical.com/akki-s-workspace2/ai-engineer-mindmap-GnDcMXsXrt8biX2xM3pZAS)
+- [Low Level Design (LLD)](https://whimsical.com/akki-s-workspace2/lld-2ybEBbrajSK4BiPBNFdfQP)
+- [DSA Patterns](https://whimsical.com/akki-s-workspace2/dsa-patterns-JEvwrbR2rLP88DLyhqX5zj)
+
 ### 🔐 Security
 - Security-related concepts (to be expanded)  
 
