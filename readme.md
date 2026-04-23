@@ -11,14 +11,16 @@ This repository serves as a **personal reference hub** and a **quick revision gu
 
 ### 🤖 AI-ML
 - [huggingface_cache_explained.md](./AI-ML/huggingface_cache_explained.md)
-- [LLM_Cheatsheet.pdf](./AI-ML/LLM_Cheatsheet.pdf)
+- [LLM_Cheatsheet.pdf](https://drive.google.com/file/d/1ak_KaAs3HbvvXVKqt4OLvBfRo9UXFXff/view?usp=sharing)
 - [llm_generation_parameters.md](./AI-ML/llm_generation_parameters.md)
-- [ML_Algos.jpg](./AI-ML/ML_Algos.jpg)       
+- [ML_Algos.jpg](./AI-ML/ML_Algos.jpg)
+- [AI Book](https://drive.google.com/file/d/14KP15RxNxZmiZSfV1biQOTdZQOb5J6nT/view?usp=sharing)
+
 
 ### 🧩 Backend
 - [20API_Concepts.jpg](./Backend/20API_Concepts.jpg)
 - [API_Architecture_Types.jpg](./Backend/API_Architecture_Types.jpg)
-- [API_Basics.pdf](./Backend/API_Basics.pdf)
+- [API_Basics.pdf](https://drive.google.com/file/d/1iOgVqmyFurQ9hM5w7ZviYs5Q3cm3DpmJ/view?usp=sharing)
 - [JWT_Token.md](./Backend/JWT_Token.md)
 - [RestAPI.jpg](./Backend/RestAPI.jpg)
 
@@ -29,8 +31,8 @@ This repository serves as a **personal reference hub** and a **quick revision gu
 - Database-related notes (to be expanded)  
 
 ### ⚙️ DevOps
-- [Docker_Book.pdf](./DevOps/Docker_Book.pdf)
-- [Docker_Tricks.pdf](./DevOps/Docker_Tricks.pdf)
+- [Docker_Book.pdf](https://drive.google.com/file/d/1jb-N1CR3bxw5IQPmGw4zBnSJvHFW1M7J/view?usp=sharing)
+- [Docker_Tricks.pdf](https://drive.google.com/file/d/1j7OShQR3Zm4GkhN2KTGEiAR87cjXReON/view?usp=sharing)
 - [Essential_Network_Ports.jpg](./DevOps/Essential_Network_Ports.jpg)
 - [helm_kubernetes_guide.md](./DevOps/helm_kubernetes_guide.md)
 - [HTTP_Status_Code.jpg](./DevOps/HTTP_Status_Code.jpg)
@@ -39,11 +41,13 @@ This repository serves as a **personal reference hub** and a **quick revision gu
 - [Roadmap_Devops.md](./DevOps/Roadmap_Devops.md) 
 
 ### 🧠 DSA
-- [DSA_Pattern_Guide.pdf](./DSA/DSA_Pattern_Guide.pdf)
-- [DSA_Quick_Revision_Guide.pdf](./DSA/DSA_Quick_Revision_Guide.pdf)
-- [Logic_Building_&_Guess_The_Output.pdf](./DSA/Logic_Building_&_Guess_The_Output.pdf)
+- [DSA_Pattern_Guide.pdf](https://drive.google.com/file/d/1zbCxFN7EFADrk1fA60qk7cN323oRHjdt/view?usp=sharing)
+- [DSA_Quick_Revision_Guide.pdf](https://drive.google.com/file/d/1_437gzKZPDcX1gp7kaYWYAZ4rcQK0f82/view?usp=sharing)
+- [Logic_Building_&_Guess_The_Output.pdf](https://drive.google.com/file/d/1YPtb6ICcoAIGNkvCqtTmyUBI_cWFaNQ5/view?usp=sharing)
 - [Sorting_Algo.jpg](./DSA/Sorting_Algo.jpg)
-- [Trees_Notes_-1.pdf](./DSA/Trees_Notes_-1.pdf)
+- [Trees_Notes_-1.pdf](https://drive.google.com/file/d/12Hm0MSBHa-fpvU2B1o_8W_gSz7-kdP-f/view?usp=sharing)
+- [100_DSA_Questions_All_Patterns.docx](https://docs.google.com/document/d/1KO8OwklhTLUPvUS0gBccITxvs44ScKX7/mobilebasic?fbclid=PAT01DUARAzr5leHRuA2FlbQIxMABzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAaf6sfRcnWlN-IDn5-CFbkkuaxXSrwuGG68LYnLZpUtSa2mDic9eDwG1LKF7Uw_aem_ozQqaFtd0dhpTbDmG8L1EQ)
+- [Coding Patterns for Solving DSA Problems](https://github.com/Chanda-Abdul/Several-Coding-Patterns-for-Solving-Data-Structures-and-Algorithms-Problems-during-Interviews?fbclid=PAT01DUARAz0pleHRuA2FlbQIxMABzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAadNaIcHFPY88pMontPnWriSPyUNwTs3JG-Cq6abxZCssYy8y3WEuaLJEmx4gw_aem_Ni93QWEw-3tUXlKRYP2rSg)
 
 ### 🔧 Git & GitHub
 - [Github-cli-guide.md](./Git-GitHub/Github-cli-guide.md)
@@ -72,7 +76,7 @@ This repository serves as a **personal reference hub** and a **quick revision gu
 - Prompt engineering references and examples  
 
 ### 📦 Others
-- [Final_year_project.pdf](./Others/Final_year_project.pdf)
+- [Final_year_project.pdf](https://drive.google.com/file/d/1Rxc9cN7V8wWy7JUoYx8tP4ZTwL7tZHU7/view?usp=sharing)
 
 ---
 
