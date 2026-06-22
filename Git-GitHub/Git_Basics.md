@@ -429,6 +429,83 @@ git push
 ---
 
 
+## 📧 Rewriting Author/Committer Email in Git History
+
+Use `git filter-repo` to replace commits authored or committed by an old email with a new one. It's faster and safer than the older `git filter-branch`.
+
+### How it works
+
+1. `git filter-repo` walks through every commit in your history
+2. For each commit, it checks if the author/committer email matches `old_email`
+3. If it matches, it rewrites that commit with the corrected `new_email`
+4. All commits get new hashes (since hash changes when content changes), but dates and messages stay the same
+
+### Step 1 — Check existing authors
+
+```bash
+# View authors in recent history
+git log --format="%an <%ae>"
+
+# View all unique authors across all branches
+git log --all --format="%an <%ae>" | sort -u
+```
+
+### Step 2 — Rewrite history with mailmap
+
+```bash
+# <<'EOF' ... EOF is a bash heredoc — passes multi-line text directly into the command via stdin
+git filter-repo --force --mailmap /dev/stdin <<'EOF'
+new_name <new_email> old_name <old_email>
+EOF
+```
+
+> [!NOTE]
+> `git filter-repo` removes the `origin` remote by default as a safety measure to prevent accidentally force-pushing rewritten history to the wrong remote.
+
+### Step 3 — Re-add remote and verify
+
+```bash
+# Check remote is gone
+git remote -v
+
+# Re-add it
+git remote add origin <repository-url>
+
+# Optionally review what refs changed
+cat .git/filter-repo/changed-refs
+```
+
+### Step 4 — Force push rewritten history
+
+Since `git filter-repo` removes the `origin` remote and you re-added it manually, Git doesn't know which remote branch to track yet. Use `--set-upstream` (or `-u`) to link your local branch to the remote on the first push.
+
+```bash
+# Push all branches with upstream tracking set
+git push --force --set-upstream origin --all
+git push --force --tags
+
+# Or push a specific branch and set upstream at the same time
+git push --force -u origin main
+```
+
+> [!WARNING]
+> Force-pushing rewrites shared history. Coordinate with your team before doing this on shared branches.
+
+---
+
+### 🔧 About `git filter-repo`
+
+A tool to rewrite Git history. It's faster and safer than the older `git filter-branch`. It walks through every commit and lets you transform things like file content, commit messages, or author info.
+
+| Concept | Explanation |
+| --- | --- |
+| `git filter-repo` | Rewrites Git history by walking every commit and applying transformations |
+| `--mailmap` | Tells filter-repo to use a mailmap file for remapping author/committer identities |
+| `--force` | Required if the repo wasn't freshly cloned (overrides the safety check) |
+| `<<'EOF' ... EOF` | Bash heredoc — passes multi-line text as stdin without creating a temp file |
+
+---
+
 ## ✅ Rule of Thumb
 
 > Merge shared branches,  
