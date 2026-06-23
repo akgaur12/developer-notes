@@ -506,6 +506,50 @@ A tool to rewrite Git history. It's faster and safer than the older `git filter-
 
 ---
 
+## 🕐 Committing with a Custom Date (Backdating)
+
+Git records two timestamps per commit: the **author date** (when the change was made) and the **committer date** (when the commit was created). Both can be overridden using environment variables before running `git commit`.
+
+### Why use this
+
+- Preserve the original date when migrating or replaying commits
+- Match commit timestamps to when work was actually done
+- Reconstruct history from notes/logs after the fact
+
+### Syntax
+
+```bash
+git add <file> && \
+GIT_AUTHOR_DATE="<YYYY-MM-DDTHH:MM:SS>" \
+GIT_COMMITTER_DATE="<YYYY-MM-DDTHH:MM:SS>" \
+git commit -m "<type>: <message>"
+```
+
+### How backdating works
+
+| Variable | Controls |
+| --- | --- |
+| `GIT_AUTHOR_DATE` | The date shown in `git log` as "Author Date" — when the change was made |
+| `GIT_COMMITTER_DATE` | The date shown as "Commit Date" — when the commit object was created |
+
+- Both are set as **shell environment variables** prefixed before `git commit`, so they apply only to that single command
+- The `&&` chains `git add` first; the `\` at the end of each line continues the command across lines
+- Format: ISO 8601 — `YYYY-MM-DDTHH:MM:SS` or with timezone like `2026-06-18T22:05:13+05:30`
+
+### Verify the date was applied
+
+```bash
+git log --format="%H %ai %ci %s" -1
+#                     ^^^ ^^^
+#                     |   committer date
+#                     author date
+```
+
+> [!NOTE]
+> These variables only affect the current `git commit` call. They do not persist to future commits.
+
+---
+
 ## ✅ Rule of Thumb
 
 > Merge shared branches,  
