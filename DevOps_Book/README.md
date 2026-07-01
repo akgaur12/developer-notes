@@ -31,10 +31,10 @@ No prior DevOps experience required. Start from Topic 1.
 | 1 | [Linux Fundamentals](./01-Linux-Fundamentals/00-index.md) | Filesystem, permissions, processes, shell scripting, SSH | 17 | 3–4 weeks | ✅ Complete |
 | 2 | [Networking Basics](./02-Networking-Basics/00-index.md) | OSI model, TCP/IP, DNS, HTTP/TLS, nginx, firewalls, load balancing | 16 | 3–4 weeks | ✅ Complete |
 | 3 | [Git & Version Control](./03-Git-Version-Control/00-index.md) | Git internals, branching strategies, rebase, hooks, GitHub/GitLab workflows | 17 | 2–3 weeks | ✅ Complete |
-| 4 | Docker | Images, containers, Dockerfile, Compose, volumes, networking | — | 3–4 weeks | Coming soon |
-| 5 | CI/CD Pipelines | GitHub Actions, Jenkins, GitLab CI, pipeline design, testing | — | 3–4 weeks | Coming soon |
-| 6 | Cloud Fundamentals (AWS) | EC2, S3, VPC, IAM, RDS, CloudFront, cost management | — | 4–5 weeks | Coming soon |
-| 7 | Infrastructure as Code (Terraform) | HCL, state, modules, workspaces, remote backends | — | 3–4 weeks | Coming soon |
+| 4 | [Docker](./04-Docker/00-index.md) | Images, containers, Dockerfile, Compose, volumes, networking | 17 | 3–4 weeks | ✅ Complete |
+| 5 | [CI/CD Pipelines](./05-CI-CD-Pipelines/00-index.md) | GitHub Actions, Jenkins, GitLab CI, pipeline design, testing | 17 | 3–4 weeks | ✅ Complete |
+| 6 | [Cloud Fundamentals (AWS)](./06-Cloud-Fundamentals-AWS/00-index.md) | EC2, S3, VPC, IAM, RDS, CloudFront, cost management | 17 | 4–5 weeks | ✅ Complete |
+| 7 | [Infrastructure as Code (Terraform)](./07-Infrastructure-as-Code-Terraform/00-index.md) | HCL, state, modules, workspaces, remote backends | 17 | 3–4 weeks | ✅ Complete |
 | 8 | Kubernetes Basics | Pods, deployments, services, ConfigMaps, ingress, Helm | — | 4–5 weeks | Coming soon |
 | 9 | Advanced Kubernetes | RBAC, network policies, operators, multi-tenancy, GitOps | — | 3–4 weeks | Coming soon |
 | 10 | Monitoring & Logging | Prometheus, Grafana, ELK stack, alerting, SLOs | — | 3–4 weeks | Coming soon |
@@ -66,7 +66,19 @@ DevOps_Book/
 ├── 02-Networking-Basics/
 │   ├── 00-index.md
 │   └── ...16 chapters
-└── 03-Git-Version-Control/
+├── 03-Git-Version-Control/
+│   ├── 00-index.md
+│   └── ...17 chapters
+├── 04-Docker/
+│   ├── 00-index.md
+│   └── ...17 chapters
+├── 05-CI-CD-Pipelines/
+│   ├── 00-index.md
+│   └── ...17 chapters
+├── 06-Cloud-Fundamentals-AWS/
+│   ├── 00-index.md
+│   └── ...17 chapters
+└── 07-Infrastructure-as-Code-Terraform/
     ├── 00-index.md
     └── ...17 chapters
 ```
