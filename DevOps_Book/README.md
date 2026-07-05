@@ -35,12 +35,12 @@ No prior DevOps experience required. Start from Topic 1.
 | 5 | [CI/CD Pipelines](./05-CI-CD-Pipelines/00-index.md) | GitHub Actions, Jenkins, GitLab CI, pipeline design, testing | 17 | 3–4 weeks | ✅ Complete |
 | 6 | [Cloud Fundamentals (AWS)](./06-Cloud-Fundamentals-AWS/00-index.md) | EC2, S3, VPC, IAM, RDS, CloudFront, cost management | 17 | 4–5 weeks | ✅ Complete |
 | 7 | [Infrastructure as Code (Terraform)](./07-Infrastructure-as-Code-Terraform/00-index.md) | HCL, state, modules, workspaces, remote backends | 17 | 3–4 weeks | ✅ Complete |
-| 8 | Kubernetes Basics | Pods, deployments, services, ConfigMaps, ingress, Helm | — | 4–5 weeks | Coming soon |
-| 9 | Advanced Kubernetes | RBAC, network policies, operators, multi-tenancy, GitOps | — | 3–4 weeks | Coming soon |
-| 10 | Monitoring & Logging | Prometheus, Grafana, ELK stack, alerting, SLOs | — | 3–4 weeks | Coming soon |
-| 11 | Security (DevSecOps) | Secrets management, SAST/DAST, supply chain, compliance | — | 3–4 weeks | Coming soon |
+| 8 | [Kubernetes Basics](./08-Kubernetes-Basics/00-index.md) | Pods, deployments, services, ConfigMaps, ingress, Helm | 19 | 5–6 weeks | ✅ Complete |
+| 9 | [Advanced Kubernetes](./09-Advanced-Kubernetes/00-index.md) | RBAC, network policies, operators, multi-tenancy, GitOps | 18 | 4–5 weeks | ✅ Complete |
+| 10 | [Monitoring & Logging](./10-Monitoring-and-Logging/00-index.md) | Prometheus, Grafana, ELK stack, alerting, SLOs | 18 | 4–5 weeks | ✅ Complete |
+| 11 | [Security (DevSecOps)](./11-Security-DevSecOps/00-index.md) | Secrets management, SAST/DAST, supply chain, compliance | 18 | 4–5 weeks | ✅ Complete |
 
-**Total estimated time:** 10–14 months at a comfortable pace (1–2 hours/day).
+**Total estimated time:** 10–14 months at a comfortable pace (1–2 hours/day). **All 11 courses are complete.**
 
 ---
 
@@ -78,9 +78,21 @@ DevOps_Book/
 ├── 06-Cloud-Fundamentals-AWS/
 │   ├── 00-index.md
 │   └── ...17 chapters
-└── 07-Infrastructure-as-Code-Terraform/
+├── 07-Infrastructure-as-Code-Terraform/
+│   ├── 00-index.md
+│   └── ...17 chapters
+├── 08-Kubernetes-Basics/
+│   ├── 00-index.md
+│   └── ...19 chapters
+├── 09-Advanced-Kubernetes/
+│   ├── 00-index.md
+│   └── ...18 chapters
+├── 10-Monitoring-and-Logging/
+│   ├── 00-index.md
+│   └── ...18 chapters
+└── 11-Security-DevSecOps/
     ├── 00-index.md
-    └── ...17 chapters
+    └── ...18 chapters
 ```
 
 Each course directory follows the same pattern:
@@ -100,3 +112,5 @@ Each course directory follows the same pattern:
 | DevOps Engineer II | Topics 1–6 | Deploy to cloud, manage infrastructure, set up CI/CD |
 | Senior DevOps / SRE | Topics 1–9 | Design and operate large-scale Kubernetes platforms |
 | Platform Engineer | All 11 topics | Full-stack infrastructure: security, observability, compliance |
+
+The full roadmap is complete: all 11 courses, ~200 chapters, from `01-Linux-Fundamentals` through `11-Security-DevSecOps`.
