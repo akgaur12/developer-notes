@@ -150,6 +150,39 @@ git commit --amend
 
 ---
 
+## 🚚 Renaming & Moving Files (`git mv`)
+
+```bash
+git mv old_name new_name
+```
+
+is equivalent to:
+
+```bash
+mv old_name new_name
+git add new_name
+git rm old_name       # (or git add -u, to stage the deletion)
+```
+
+### How Git actually models this
+
+Git doesn't store "rename" as a special object type — it always just records
+**old-path-deleted + new-path-added**. What `git mv` (and rename detection in
+`git status` / `git diff`) does is *display* those two changes as a rename
+when the file's content is similar enough between the old and new path.
+
+So a rename is really a similarity heuristic applied at diff-time, not a
+fact recorded in the commit. That's why:
+
+- Renaming a file **and** heavily editing it in the same commit can cause
+  Git to show it as a plain delete + add instead of a rename (content
+  similarity dropped below the threshold, default `-M50%`).
+- `git log --follow <file>` and `git blame -C` exist specifically to walk
+  across these delete/add pairs, since Git has no rename metadata to follow
+  otherwise.
+
+---
+
 ## 🌿 Branching
 
 ```bash
