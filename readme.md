@@ -1,20 +1,83 @@
 # 📚 Tech Knowledge Base
 
-A curated collection of notes, cheatsheets, PDFs, and resources covering core topics in **AI/ML, Backend, DevOps, DSA, System Design, and more**.
+A curated collection of full courses, notes, cheatsheets, and interview-prep Q&A covering **AI/ML, Databases, DevOps, Backend, DSA, System Design, and more**.
 
 This repository serves as a **personal reference hub** and a **quick revision guide** for interviews, projects, and day-to-day development.
 
----
 
+---
 
 ## 🚀 Sections Overview
 
 ### 🤖 AI-ML
-- [huggingface_cache_explained.md](./AI-ML/huggingface_cache_explained.md)
-- [LLM_Cheatsheet.pdf](https://drive.google.com/file/d/1ak_KaAs3HbvvXVKqt4OLvBfRo9UXFXff/view?usp=sharing)
-- [llm_generation_parameters.md](./AI-ML/llm_generation_parameters.md)
-- [ML_Algos.jpg](./AI-ML/ML_Algos.jpg)
-- [AI Book](https://drive.google.com/file/d/14KP15RxNxZmiZSfV1biQOTdZQOb5J6nT/view?usp=sharing)
+
+
+<summary><strong><a href="./AI-ML/llm-fundamentals-course/readme.md">01 - LLM Fundamentals Course</a></summary>
+<summary><strong><a href="./AI-ML/langchain-core-course/00-index.md">02 - LangChain Core Course</a></summary>
+<summary><strong><a href="./AI-ML/langgraph-course/00-index.md">03 - LangGraph Course</a></summary>
+<summary><strong><a href="./AI-ML/deepagents-course/00-index.md">04 - DeepAgents Course</a></summary>
+<summary><strong><a href="./AI-ML/rag-course/00-index.md">05 - RAG Course</a></summary>
+<summary><strong><a href="./AI-ML/mcp-course/00-index.md">06 - MCP Course</a></summary>
+
+<summary><strong><a href="./AI-ML/writing-skills-guide.md">07 - Writing_Skills_Guide.md</a></summary>
+<summary><strong><a href="./AI-ML/huggingface_cache_explained.md">08 - huggingface_cache_explained.md</a></summary>
+<summary><strong><a href="./AI-ML/llm_generation_parameters.md">09 - llm_generation_parameters.md</a></summary>
+<summary><strong><a href="https://drive.google.com/file/d/1ak_KaAs3HbvvXVKqt4OLvBfRo9UXFXff/view?usp=sharing">10 - LLM_Cheatsheet.pdf</a></summary>
+<summary><strong><a href="https://drive.google.com/file/d/14KP15RxNxZmiZSfV1biQOTdZQOb5J6nT/view?usp=sharing">11 - AI Book</a></summary>
+
+
+### 🗄️ Databases
+
+<summary><strong><a href="./Databases/postgresql-course/00-index.md">PostgreSQL</a></a></summary>
+<summary><strong><a href="./Databases/mongodb-course/readme.md">MongoDB & the Aggregation Pipeline</a></a></summary>
+<summary><strong><a href="./Databases/redis-course/00-index.md">Redis</a></a></summary>
+<summary><strong><a href="./Databases/clickhouse-course/00-index.md">ClickHouse & Columnar Databases</a></a></summary>
+<summary><strong><a href="./Databases/minio-course/00-index.md">MinIO & Object Storage</a></a></summary>
+<summary><strong><a href="./Databases/alembic-course/00-index.md">Alembic & Database Schema Migrations</a></a></summary>
+
+### ⚙️ DevOps
+
+<summary><strong><a href="./DevOps_Book/README.md">DevOps Engineering — Complete Learning Path</a></strong> — 11 courses, zero to production-grade DevOps engineer</summary>
+
+<summary><strong><a href="./DevOps_Book/01-Linux-Fundamentals/00-index.md">01 · Linux Fundamentals</a></strong> — 17 chapters</summary>
+
+<summary><strong><a href="./DevOps_Book/02-Networking-Basics/00-index.md">02 · Networking Basics</a></strong> — 16 chapters</summary>
+
+
+<summary><strong><a href="./DevOps_Book/03-Git-Version-Control/00-index.md">03 · Git & Version Control</a></strong> — 17 chapters</summary>
+
+<summary><strong><a href="./DevOps_Book/04-Docker/00-index.md">04 · Docker</a></strong> — 17 chapters</summary>
+
+<summary><strong><a href="./DevOps_Book/05-CI-CD-Pipelines/00-index.md">05 · CI/CD Pipelines</a></strong> — 17 chapters</summary>
+
+<summary><strong><a href="./DevOps_Book/06-Cloud-Fundamentals-AWS/00-index.md">06 · Cloud Fundamentals (AWS)</a></strong> — 17 chapters</summary>
+
+<summary><strong><a href="./DevOps_Book/07-Infrastructure-as-Code-Terraform/00-index.md">07 · Infrastructure as Code (Terraform)</a></strong> — 17 chapters</summary>
+
+<summary><strong><a href="./DevOps_Book/08-Kubernetes-Basics/00-index.md">08 · Kubernetes Basics</a></strong> — 19 chapters</summary>
+
+<summary><strong><a href="./DevOps_Book/09-Advanced-Kubernetes/00-index.md">09 · Advanced Kubernetes</a></strong> — 18 chapters</summary>
+
+<summary><strong><a href="./DevOps_Book/10-Monitoring-and-Logging/00-index.md">10 · Monitoring & Logging</a></strong> — 18 chapters</summary>
+
+<summary><strong><a href="./DevOps_Book/11-Security-DevSecOps/00-index.md">11 · Security & DevSecOps</a></strong> — 18 chapters</summary>
+
+<summary><strong><a href="./DevOps/docker-course/00-roadmap.md">Docker Course (standalone)</a></strong> — 10 chapters, beginner to expert</summary>
+
+
+#### Other DevOps references:
+- [Roadmap_Devops.md](./DevOps/Roadmap_Devops.md)
+- [helm_kubernetes_guide.md](./DevOps/helm_kubernetes_guide.md)
+- [kubernetes_commands.md](./DevOps/kubernetes_commands.md)
+- [kubernetes_interview_qa.md](./DevOps/kubernetes_interview_qa.md)
+- [Essential_Network_Ports.jpg](./DevOps/Essential_Network_Ports.jpg)
+- [HTTP_Status_Code.jpg](./DevOps/HTTP_Status_Code.jpg)
+- [Docker_Book.pdf](https://drive.google.com/file/d/1jb-N1CR3bxw5IQPmGw4zBnSJvHFW1M7J/view?usp=sharing)
+- [Docker_Tricks.pdf](https://drive.google.com/file/d/1j7OShQR3Zm4GkhN2KTGEiAR87cjXReON/view?usp=sharing)
+
+### 🎯 Interview Q&A
+
+<summary><strong><a href="./Interview-QA/readme.md">AI/ML Interview Q&A</a></strong> — 11 files covering Generative AI through LLMOps</summary>
 
 
 ### 🧩 Backend
@@ -26,19 +89,6 @@ This repository serves as a **personal reference hub** and a **quick revision gu
 
 ### ☁️ Cloud
 - [AWS_Roadmap.jpg](./Cloud/AWS_Roadmap.jpg)
-
-### 🗄️ Databases
-- Database-related notes (to be expanded)  
-
-### ⚙️ DevOps
-- [Docker_Book.pdf](https://drive.google.com/file/d/1jb-N1CR3bxw5IQPmGw4zBnSJvHFW1M7J/view?usp=sharing)
-- [Docker_Tricks.pdf](https://drive.google.com/file/d/1j7OShQR3Zm4GkhN2KTGEiAR87cjXReON/view?usp=sharing)
-- [Essential_Network_Ports.jpg](./DevOps/Essential_Network_Ports.jpg)
-- [helm_kubernetes_guide.md](./DevOps/helm_kubernetes_guide.md)
-- [HTTP_Status_Code.jpg](./DevOps/HTTP_Status_Code.jpg)
-- [kubernetes_commands.md](./DevOps/kubernetes_commands.md)
-- [kubernetes_interview_qa.md](./DevOps/kubernetes_interview_qa.md)
-- [Roadmap_Devops.md](./DevOps/Roadmap_Devops.md) 
 
 ### 🧠 DSA
 - [DSA_Pattern_Guide.pdf](https://drive.google.com/file/d/1zbCxFN7EFADrk1fA60qk7cN323oRHjdt/view?usp=sharing)
@@ -53,13 +103,14 @@ This repository serves as a **personal reference hub** and a **quick revision gu
 - [Github-cli-guide.md](./Git-GitHub/Github-cli-guide.md)
 - [Git_Basics.md](./Git-GitHub/Git_Basics.md)
 - [Git_Helper_Files.md](./Git-GitHub/Git_Helper_Files.md)
-- [Git_LICENSE_Guide.md](./Git-GitHub/Git_LICENSE_Guide.md) 
+- [Git_LICENSE_Guide.md](./Git-GitHub/Git_LICENSE_Guide.md)
 
 ### 🐍 Python
+- [uv — The Complete Python Package & Project Manager Course](./Python/uv-course/00-index.md)
 - [EmailMessage-vs-MIMEMultipart.md](./Python/EmailMessage-vs-MIMEMultipart.md)
 - [logging_basics.md](./Python/logging_basics.md)
 - [motor-vs-pymongo.md](./Python/motor-vs-pymongo.md)
-- [pytest_basic.md](./Python/pytest_basic.md)  
+- [pytest_basic.md](./Python/pytest_basic.md)
 
 ### 🗺️ MindMaps
 - [AI Engineer Complete MindMap](https://whimsical.com/akki-s-workspace2/ai-engineer-mindmap-GnDcMXsXrt8biX2xM3pZAS)
@@ -67,13 +118,13 @@ This repository serves as a **personal reference hub** and a **quick revision gu
 - [DSA Patterns](https://whimsical.com/akki-s-workspace2/dsa-patterns-JEvwrbR2rLP88DLyhqX5zj)
 
 ### 🔐 Security
-- Security-related concepts (to be expanded)  
+- Security-related concepts (to be expanded)
 
 ### 🏗️ System Design
-- System design concepts and resources  
+- System design concepts and resources
 
 ### 📝 Prompts
-- Prompt engineering references and examples  
+- Prompt engineering references and examples
 
 ### 📦 Others
 - [Final_year_project.pdf](https://drive.google.com/file/d/1Rxc9cN7V8wWy7JUoYx8tP4ZTwL7tZHU7/view?usp=sharing)
@@ -82,36 +133,37 @@ This repository serves as a **personal reference hub** and a **quick revision gu
 
 ## 🎯 Purpose
 
-- 📖 Quick revision before interviews  
-- 🧠 Consolidated learning in one place  
-- 🔍 Easy reference for real-world projects  
-- ⚡ Save time searching scattered resources  
+- 📖 Quick revision before interviews
+- 🧠 Consolidated learning in one place
+- 🔍 Easy reference for real-world projects
+- ⚡ Save time searching scattered resources
 
 ---
 
 ## 🛠️ How to Use
 
-- Browse topic-wise folders  
-- Open `.md`, `.pdf`, or `.jpg` files as needed  
-- Use it as a **second brain** for tech concepts  
+- Browse topic-wise folders
+- Click a course's summary line above to expand its full chapter list
+- Course folders are numbered chapters (`00-index.md`/`readme.md`, `01-...`, `02-...`) — start at the index and read in order
+- Open `.md`, `.pdf`, or `.jpg` files as needed
+- Use it as a **second brain** for tech concepts
 
 ---
 
 ## 🌱 Future Improvements
 
-- Add more structured notes  
-- Expand System Design & Security sections  
-- Add real-world case studies  
-- Improve categorization and tagging  
+- Expand System Design & Security sections
+- Add real-world case studies
+- Improve categorization and tagging
 
 ---
 
 ## ⭐ Contributing
 
 This is a personal knowledge base, but feel free to:
-- Suggest improvements  
-- Share better resources  
-- Raise issues  
+- Suggest improvements
+- Share better resources
+- Raise issues
 
 ---
 
