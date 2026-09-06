@@ -39,19 +39,6 @@ You do **not** need prior experience with machine learning, neural networks, or 
 
 ## Learning Roadmap
 
-```mermaid
-flowchart TD
-    A["Phase 1: Foundations\nML + DL + NLP\nCh 1-4"] --> B["Phase 2: Transformers\nAttention + Architecture\nCh 5-6"]
-    B --> C["Phase 3: LLM Internals\nArchitecture + Tokenization + Sampling\nCh 7-9"]
-    C --> D["Phase 4: Application Layer\nPrompting + Tool Calling\nCh 10-11"]
-    D --> E["Phase 5: Training\nPretraining, SFT, RLHF, LoRA\nCh 12-13"]
-    E --> F["Phase 6: Inference\nvLLM, FlashAttention, Quantization\nCh 14-15"]
-    F --> G["Phase 7: LLM Systems\nRAG, Agents, MCP\nCh 16-18"]
-    G --> H["Phase 8: Production\nAPIs, Observability, Security\nCh 19-20"]
-    H --> I["Phase 9: Mastery\nBest Practices, Pitfalls, Ecosystem\nCh 21-23"]
-    I --> J["Phase 10: Capstone & Interviews\nCh 24-25"]
-```
-
 | Phase | Milestone | Chapters |
 |---|---|---|
 | 1. Foundations | Explain ML/DL fundamentals and classic NLP well enough to know why Transformers were needed | 1–4 |
