@@ -39,16 +39,6 @@ You do **not** need prior experience with LangChain, vector databases, or LLM AP
 
 ## Learning Roadmap
 
-```mermaid
-flowchart TD
-    A["Phase 1: Foundations\nCh 1-3"] --> B["Phase 2: Core Building Blocks\nCh 4-6"]
-    B --> C["Phase 3: Build & Retrieve\nCh 7-8"]
-    C --> D["Phase 4: Reasoning & Architecture\nCh 9-11"]
-    D --> E["Phase 5: Production\nCh 12-13"]
-    E --> F["Phase 6: Advanced Systems\nCh 14-15"]
-    F --> G["Phase 7: Mastery\nCh 16-18"]
-    G --> H["Phase 8: Capstone & Interviews\nCh 19-20"]
-```
 
 | Phase | Milestone | Chapters |
 |---|---|---|
